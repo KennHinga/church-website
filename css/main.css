@@ -26,14 +26,21 @@
     color: white;
 }
 .footer{
-    background-color: grey;
+    background-color: rgb(199, 165, 165);
     display: flex;
-    margin-top: 99%;
+    /* margin-top: 99%; */
     height: 100px;
-    font-size: 15px   
+    font-size: 15px;
+    bottom: 0%;
+    position: fixed;
+    width: 99%;
+}
+.h1{
+    background-color:violet;
+    color:red;
 }
 .theme{
-    margin-left:0px;
+    margin-left:0;
 }
 .kayo{
     margin-left: 10%;
@@ -44,5 +51,12 @@
     width: 15%;
 }
 .kama{
-    margin-top: 70%;
+    margin-top: 20px;
+}
+.home{
+    background-image: url('../images/roger6.jpg');
+    height:100%;
+    width:100%;
+    background-repeat: cover;
+
 }
